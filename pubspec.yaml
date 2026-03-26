@@ -1,0 +1,16 @@
+name: mlkit_image_recognition
+description: A Flutter ML Kit Image Recognition App
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mlkit_image_labeling: ^0.14.2
+  image_picker: ^1.2.1
+  cupertino_icons: ^1.0.6
+
+flutter:
+  uses-material-design: true
